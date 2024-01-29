@@ -41,6 +41,7 @@ public class BatchConfig {
 				.processor(new Processor())
 				.writer(new Writer())
 				.taskExecutor(taskExecutor())
+				.allowStartIfComplete(true)
 				.build();
 	}
 	
